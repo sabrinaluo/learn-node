@@ -5,8 +5,6 @@ var request = require("request");
 
 var app = express();
 
-//NOTES: ¨Ï¥Îsuperagent¼ÒšÂ©Mrequest¼ÒšÂ³£üÓªk§ì¨ú¥¿ÚÌ?Õu¡A¥u¯à§ì¨ì???ªG"Resolve Domain Error"
-
 app.get("/", function (req, res) {
   var url = "https://www.cnodejs.org/";
   request(url,function(err, response, body){
